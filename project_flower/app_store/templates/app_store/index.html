@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Главная страница
+{% endblock title %}
+
+{% block main %}
+
+{% include 'app_store/components/_sidebar.html' %}
+
+{% include 'app_store/components/_cart.html' %}
+
+{% include 'app_store/components/_carousel.html' %}
+
+{% include 'app_store/components/_banner.html' %}
+
+{% include 'components/_products.html' %}
+
+{% include 'app_store/components/_btn_top_scroll.html' %}
+
+{% include 'components/_quick_view.html' %}
+
+{% endblock main %}
